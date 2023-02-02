@@ -247,35 +247,45 @@
 
 
 .contact{
+    margin: 100px auto;
+    height: 200px;
     width: 80%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("images/banner2.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
     margin: auto;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 100px 0px;
 }
 
 .contact h1{
+    padding-top: 10px;
+    color: white;
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .contact span{
-    color: #777;
+    color: whitesmoke;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+    text-align: center;
 }
 
 .btn-connect{
     display: inline-block;
     border: 2px solid rgb(144, 98, 98);
-    padding: 4px 15px ;
+    padding: 4px 30px ;
     border-radius: 5px;
-    background-color: #c0c7d3;
+    background-color:orange;
 }
 
 .btn-connect:hover{
-    transform: scale(1.2);
+    transform: scale(1.4);
     transition: .4s;
 } 
 
